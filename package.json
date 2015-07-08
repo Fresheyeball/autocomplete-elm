@@ -1,0 +1,22 @@
+{
+  "name": "autocomplete-elm",
+  "main": "./lib/autocomplete-elm",
+  "version": "0.0.0",
+  "description": "Auto complete for elm-lang",
+  "keywords": [],
+  "repository": "https://github.com/atom/autocomplete-elm",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "lodash": "^3.10.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
